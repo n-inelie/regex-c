@@ -26,6 +26,7 @@ Match match_find(NFA *nfa, const char *text) {
         if (state == NULL) {
             state = nfa->start_state;
             ++i;
+            m.set = false;
             continue;
         }
         if (!m.set) {

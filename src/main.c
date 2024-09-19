@@ -20,7 +20,7 @@ int main(void) {
                                         nfa_from_symbol('y'),
                                     }),
                      });
-    Match m = match_find(nfa, "xxxabcxxx");
+    Match m = match_find(nfa, "abxxxyxxxabcxxx");
     match_pretty_print(&m);
     return 0;
 }
