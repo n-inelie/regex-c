@@ -1,0 +1,5 @@
+qcount 3
+q0 q2 a
+q0 q1 b
+q1 q1 b
+q1 q2 c
